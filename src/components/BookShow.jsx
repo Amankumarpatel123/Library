@@ -25,7 +25,7 @@ const [showEdit, setShowEdit] = useState(false);
 
   return (
     <div className='book-show' >
-    
+    <img className='book-image' src={`https://picsum.photos/seed/${book.title}/300/200`} alt="Book" />
       <div>{content}</div>
       <div className='actions'>
         <button className='delete' onClick={handleDelete}>

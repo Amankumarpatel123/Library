@@ -7,7 +7,10 @@
   padding: 2.5rem; 
 }
 form{
-  width: 50%;;
+  width: 80%;
+  max-width: 800px;
+  min-width: 300px;
+  margin-top: 10px;
   border: 1px solid #2fb4c6;
   display: relative;
   flex-direction: column;
@@ -108,4 +111,10 @@ position:absolute ; /* Position the button relative to the .book-show container 
 .edit:hover {
   background-color: #43c16b;
   color: white;
+}
+
+.book-image {
+  margin-top: 10px;
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-radius: 8px; /* Optional: Add some border radius for aesthetics */
 }
