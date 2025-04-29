@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.io/Amankumarpatel123/Library/",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,10 +12,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://Amankumarpatel123.github.io/Library",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
+  
   "devDependencies": {
     "@eslint/js": "^9.22.0",
     "@types/react": "^19.0.10",
